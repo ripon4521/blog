@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="./tailwind.config.js">
 </head>
 <body class="container mx-auto mt-10">
-    <div class="flex  justify-around">
+    <div class="flex flex-col-reverse lg:flex-row  , gap-5 lg:ml-0     justify-center items-center lg:justify-around">
       <div class="text-2xl text-red-600 ">
         <i class="fa-brands fa-facebook ml-4"></i>
         <i class="fa-brands fa-linkedin ml-4"></i>
@@ -24,6 +24,27 @@
       </div>
 
     </div>
+
+    <section >
+      <div class=" mt-20 ">
+        <img class="rounded p-5 lg:ml-[300px]" src="./thumbnail.png" alt="">
+      </div>
+    </section>
+    <section class="mt-10">
+      <div class="bg-gray-500 w-[800px] lg:ml-[400px]  p-4 rounded text-white">
+        <h1 class=" text-2xl font-semibold ">What is the scope of let var and const?</h1>
+        <p class="mt-2 text-xl">Variables declared with var are in the function scope. Variables declared as let are in the block scope. Variables declared as const are in the block scope.</p>
+      </div>
+      <div class="bg-gray-500 w-[800px] lg:ml-[400px] mt-5 p-4 rounded text-white">
+        <h1 class=" text-2xl font-semibold ">Undefined vs Null</h1>
+        <p class="mt-2 text-xl">Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value. The typeof() operator returns undefined for an undefined variable. The typeof() operator returns the type as an object for a variable whose value is assigned as null.</p>
+      </div>
+      <div class="bg-gray-500 w-[800px] lg:ml-[400px] mt-5 p-4 rounded text-white">
+        <h1 class=" text-2xl font-semibold ">What do you mean by REST API?</h1>
+        <p class="mt-2 text-xl">A REST API is an API that conforms to the design principles of the REST, or representational state transfer architectural style. For this reason, REST APIs are sometimes referred to RESTful APIs.
+        </p>
+      </div>
+    </section>
   
     <script src="./script.js"></script>
 </body>
