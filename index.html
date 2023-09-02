@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post </title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="./tailwind.config.js">
+</head>
+<body class="container mx-auto mt-40">
+    <h1 class="text-3xl font-bold uppercase text-center mb-10">Blog Number One</h1>
+    <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+            What is the scope of let var and const?
+        </div>
+        <div class="collapse-content"> 
+          <p>Variables declared with var are in the function scope. Variables declared as let are in the block scope. Variables declared as const are in the block scope.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" /> 
+        <div class="collapse-title text-xl font-medium">
+            Undefined vs Null
+        </div>
+        <div class="collapse-content"> 
+          <p>Undefined means the variable has been declared, but its value has not been assigned. Null means an empty value or a blank value. The typeof() operator returns undefined for an undefined variable. The typeof() operator returns the type as an object for a variable whose value is assigned as null.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-base-200">
+        <input type="radio" name="my-accordion-2" /> 
+        <div class="collapse-title text-xl font-medium">
+            What do you mean by REST API?
+        </div>
+        <div class="collapse-content"> 
+          <p>A RESTful API is an architectural style for an application program interface (API) that uses HTTP requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources.</p>
+        </div>
+      </div>
+    
+</body>
+</html>
